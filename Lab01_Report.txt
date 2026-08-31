@@ -1,7 +1,7 @@
 ======================================================
 COE67-XXX Operating Systems - Lab 01 Report
-Name: 
-Student ID: 
+Name: ชิตากานต์  ไสวศรี
+Student ID: 67121509
 ======================================================
 
 1. Hardware Baseline:
