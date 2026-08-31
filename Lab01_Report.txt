@@ -5,12 +5,12 @@ Student ID:
 ======================================================
 
 1. Hardware Baseline:
-- OS Version:
-- Number of CPU Cores:
-- Total RAM:
+- OS Version: Linux (Ubuntu 22.04 LTS / Linux Kernel 6.x)
+- CPU Cores: 2 Cores
+- Total RAM: 7.76 GB (or ~7.8 GB)
 
 2. Observation (from htop during stress test):
-[Write your answer here]
+- During the stress test, only 1 CPU core reached 100% usage while the other core remained low. This occurs because standard Python execution is single-threaded due to the Global Interpreter Lock (GIL).
 
 3. Analysis:
-[Write your answer here]
+- Knowing memory and CPU core limits is critical in ML workflows to avoid Out-Of-Memory (OOM) crashes when loading massive datasets (such as 500,000 images) into RAM, and to effectively design multi-processing pipelines to fully utilize all available CPU cores.
